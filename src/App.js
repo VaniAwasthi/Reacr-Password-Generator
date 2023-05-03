@@ -88,8 +88,8 @@ function App() {
   return (
     <div className="wrapper">
       <div className="container wrapper-box">
-        <h2>Password Generator</h2>
-        <div className="password-box">
+        <h1>Password Generator</h1>
+        <div className="password-box input" >
           <input
             type="text"
             value={handelText}
